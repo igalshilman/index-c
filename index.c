@@ -124,7 +124,7 @@ uint32_t index_search(index_t* index,
       if (!bittest(bits, pos))
         break;
 
-      if (!bittest(bits, (pos + 1) & mask))
+      if (!bittest(bits, (hash + 1) & mask))
         continue;
 
       // possible match
