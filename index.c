@@ -166,7 +166,7 @@ int main(int argc, char **argv)
     }
   }
   fclose(fp);
-  printf("index built done!\n");
+  printf("index build done!\n");
 
   index_result_t res[10];
   char *word = "worldly";
